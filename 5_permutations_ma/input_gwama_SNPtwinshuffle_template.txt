@@ -1,0 +1,5 @@
+${WORKING_PATH}/4_permutations/qtl2gwama/gwama_1958_bell_${TYPE}_SNPtwinshuffle${SLURM_ARRAY_TASK_ID}.txt
+${WORKING_PATH}/4_permutations/qtl2gwama/gwama_1958_bristol_${TYPE}_SNPtwinshuffle${SLURM_ARRAY_TASK_ID}.txt
+${WORKING_PATH}/4_permutations/qtl2gwama/gwama_NSHD_09_${TYPE}_SNPtwinshuffle${SLURM_ARRAY_TASK_ID}.txt
+${WORKING_PATH}/4_permutations/qtl2gwama/gwama_NSHD_99_${TYPE}_SNPtwinshuffle${SLURM_ARRAY_TASK_ID}.txt
+${WORKING_PATH}/4_permutations/qtl2gwama/gwama_TwinsUK_${TYPE}_SNPtwinshuffle${SLURM_ARRAY_TASK_ID}.txt

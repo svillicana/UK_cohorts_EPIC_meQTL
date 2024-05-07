@@ -1,0 +1,27 @@
+library(data.table)
+library(dplyr)
+
+# Read files ------------------------------------------------------------------
+
+# Info files
+cells <- read.csv("/scratch/prj/bell/epigenetics/Analysis/subprojects/juan/TwinsUK_processed/ssnoob_miniMethylationData.output.csv")
+cells <- cells %>% 
+  select(SampleID, PlasmaBlast, CD8pCD28nCD45RAn, CD8.naive, CD4T, NK, Mono, Gran) %>%
+  mutate(SampleID = gsub("X", "", SampleID))
+
+# Filter data -----------------------------------------------------------------
+
+samples <- scan("/scratch/prj/dtr/Groups_WorkSpace/JordanaBell/epigenetics/Analysis/subprojects/sergio/UK_cohorts_meQTL/SCRIPT/1_regression/samples_TwinsUK.txt",
+                what = character())
+
+cells <- cells %>%
+  slice(match(samples, SampleID)) %>%
+  transpose(keep.names="id",make.names=1)
+
+table(colnames(cells)[-1]==samples)
+
+# Save -------------------------------------------------------------------------
+
+write.table(cells, "/scratch/prj/dtr/Groups_WorkSpace/JordanaBell/epigenetics/Analysis/subprojects/sergio/UK_cohorts_meQTL/11_cell_interaction/1_regression/TwinsUK/cells_TwinsUK.txt",
+            quote = F, sep = "\t", col.names = T, row.names = F)
+

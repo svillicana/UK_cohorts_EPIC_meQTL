@@ -1,0 +1,5 @@
+${WORKING_PATH}/11_cell_interaction/2_meQTL/qtl2gwama/gwama_cis_${CELL}_chr${SLURM_ARRAY_TASK_ID}_TwinsUK.txt
+${WORKING_PATH}/11_cell_interaction/2_meQTL/qtl2gwama/gwama_cis_${CELL}_chr${SLURM_ARRAY_TASK_ID}_NSHD_99.txt
+${WORKING_PATH}/11_cell_interaction/2_meQTL/qtl2gwama/gwama_cis_${CELL}_chr${SLURM_ARRAY_TASK_ID}_NSHD_09.txt
+${WORKING_PATH}/11_cell_interaction/2_meQTL/qtl2gwama/gwama_cis_${CELL}_chr${SLURM_ARRAY_TASK_ID}_1958_bell.txt
+${WORKING_PATH}/11_cell_interaction/2_meQTL/qtl2gwama/gwama_cis_${CELL}_chr${SLURM_ARRAY_TASK_ID}_1958_bristol.txt

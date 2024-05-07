@@ -1,0 +1,5 @@
+/scratch/groups/bell/epigenetics/Analysis/subprojects/sergio/UK_cohorts_meQTL/2_meQTL/qtl2gwama/gwama_TwinsUK_cis.txt
+/scratch/groups/bell/epigenetics/Analysis/subprojects/sergio/UK_cohorts_meQTL/2_meQTL/qtl2gwama/gwama_NSHD_99_cis.txt
+/scratch/groups/bell/epigenetics/Analysis/subprojects/sergio/UK_cohorts_meQTL/2_meQTL/qtl2gwama/gwama_NSHD_09_cis.txt
+/scratch/groups/bell/epigenetics/Analysis/subprojects/sergio/UK_cohorts_meQTL/2_meQTL/qtl2gwama/gwama_1958_bell_cis.txt
+/scratch/groups/bell/epigenetics/Analysis/subprojects/sergio/UK_cohorts_meQTL/2_meQTL/qtl2gwama/gwama_1958_bristol_cis.txt

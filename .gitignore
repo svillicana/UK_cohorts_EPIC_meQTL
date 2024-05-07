@@ -1,0 +1,81 @@
+### 1_regression ###
+
+1_regression/cpg_list.sh
+1_regression/exclude_probes.*
+1_regression/logs/
+1_regression/samples_*
+
+### 3_meta_analysis ###
+
+3_meta_analysis/annotate_fdr.R
+3_meta_analysis/logs
+
+### 4_permutations ###
+
+4_permutations/logs
+
+### 5_permutations_ma ###
+
+5_permutations_ma/input_gwama_cis_*
+5_permutations_ma/input_gwama_trans_*
+5_permutations_ma/logs
+
+### 6_annotation ###
+
+6_annotation/9_tfbs_selection_old.R
+6_annotation/clumping/{1..5}*
+6_annotation/clumping/logs
+6_annotation/enhancers
+6_annotation/enrichment_rs
+6_annotation/logs
+6_annotation/MAF*
+6_annotation/mhc
+
+### 7_SMR ###
+
+7_SMR/Notes\ on\ SMR\ analysis.docx
+7_SMR/runSMR_for_plot.sh
+7_SMR/logs
+
+### 9_replication ###
+
+9_replication/AHRR_association/
+9_replication/annotate_meQTL.RData
+9_replication/GEMMA_GEN_conv_VCF_Dosage_ALT.sh
+9_replication/logs
+
+### 10_450K_split_ma ###
+
+10_450K_split_ma/logs
+
+### 11_cell_interaction ###
+
+11_cell_interaction/1_regression/logs
+11_cell_interaction/2_meQTL/logs
+11_cell_interaction/3_meta_analysis/logs
+11_cell_interaction/3_meta_analysis/input_gwama_cis_Mono_*
+11_cell_interaction/3_meta_analysis/input_gwama_cis_CD4T_*
+11_cell_interaction/3_meta_analysis/blueprint_wp10_qtl_query_result_2023-02-16T14_59_55+01_00.tsv
+
+### General ###
+
+general/chromosomes_*
+general/compare_*
+general/graphs.R
+general/infinium-methylationepic-v-1-0-b5-manifest-file.csv
+general/MethylationEPIC_v-1-0_B4.csv
+general/plot
+general/probes_*
+general/Zhou*
+
+### Heritability ###
+
+heritability/stats_*
+heritability/logs*
+
+### Directories ###
+
+IPA/
+QC/
+stats_graphs/
+
