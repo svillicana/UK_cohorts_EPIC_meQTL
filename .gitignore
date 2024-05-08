@@ -61,7 +61,6 @@
 
 general/chromosomes_*
 general/compare_*
-general/graphs.R
 general/infinium-methylationepic-v-1-0-b5-manifest-file.csv
 general/MethylationEPIC_v-1-0_B4.csv
 general/plot
